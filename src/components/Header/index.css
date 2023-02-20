@@ -1,0 +1,150 @@
+@media (max-width:1920px) {
+    
+    header {
+        display:flex;
+        justify-content: space-between;
+        padding-top:20px;
+        background-color: rgb(96, 96, 97);
+        position:fixed;
+    }
+    
+    .leftSide { 
+        display:flex;
+        align-items: center;
+        gap: 20px;
+        padding-left: 40px;
+        padding-bottom:10px;
+    }
+    
+    .logo {
+        width:150px;
+    }
+    
+    .menu {
+        padding-left: 10px;
+        height:80px;
+        width:80px;
+        margin-bottom:10px;
+    }
+    
+    .search {
+        width:800px;
+        height:40px;
+        border-radius:10px;
+        margin-top: 15px;
+    }
+    
+    .userPfp {
+        height: 60px;
+        width: 60px;
+        border-radius: 10px;
+        margin-left: 300px;
+        margin-top:5px;
+    
+    }
+    
+    
+}
+
+@media (max-width:600px) {
+
+    header {
+        display:flex;
+        justify-content: space-between;
+        padding-top:8px;
+        background-color: rgb(96, 96, 97);
+        width:100%;
+        position:fixed;
+    }
+    
+    .leftSide { 
+        display:flex;
+        align-items: center;
+        gap: 8px;
+        padding-left: 15px;
+        padding-bottom:4px;
+    }
+    
+    .logo {
+        width:50px;
+    }
+    
+    .menu {
+        padding-left: 4px;
+        height:25px;
+        width:25px;
+        margin-bottom:4px;
+    }
+    
+    .search {
+        width:150px;
+        height:15px;
+        border-radius:4px;
+        margin-top:5px;
+    }
+    
+    .userPfp {
+        height:20px;
+        width:20px;
+        border-radius:4px;
+        margin-left:50px;
+        margin-top:2px;
+    
+    }
+
+    .userPfp:hover {
+        box-shadow: 10px 10px 10px grey;
+    }
+}
+
+@media only screen and (max-width:1050px) and (min-width:601px) {
+
+    header {
+        display:flex;
+        justify-content: space-between;
+        padding-top:15px;
+        background-color: rgb(96, 96, 97);
+        width:100%;
+        max-width:100%;
+        position:fixed;
+    }
+    
+    .leftSide { 
+        display:flex;
+        align-items: center;
+        gap: 10px;
+        padding-left: 30px;
+        padding-bottom:8px;
+    }
+    
+    .logo {
+        width:100px;
+    }
+    
+    .menu {
+        padding-left: 8px;
+        height:50px;
+        width:50px;
+        margin-bottom:8px;
+    }
+    
+    .search {
+        width:300px;
+        height:30px;
+        border-radius:8px;
+        margin-top:5px;
+    }
+    
+    .userPfp {
+        height:40px;
+        width:40px;
+        border-radius:8px;
+        margin-left:100px;
+        margin-top:4px;
+    
+    }
+
+    .userPfp:hover {
+        box-shadow: 10px 10px 10px grey;
+    }
+}

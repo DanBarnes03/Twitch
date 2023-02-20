@@ -1,0 +1,113 @@
+@media (max-width:1920px) {
+    footer{
+        display:flex;
+        justify-content: space-between;
+        background-color: rgb(96, 96, 97);
+    }
+    
+    .leftSide {
+        display:flex;
+        align-content: center;
+        gap:50px;
+        width:80%;
+    }
+    
+    .rightSide {
+        width:20%;
+        margin-right:50px;
+    }
+    
+    .twitch {
+        font-family: Arial;
+        font-weight:800;
+        font-size: 24px;
+        color:whitesmoke;
+    }
+    
+    .logo {
+        width:150px;
+    }
+    
+    .signUp {
+        width:400px;
+    }
+}
+
+@media (max-width:600px) {
+    
+    footer{
+        display:flex;
+        justify-content: space-between;
+        background-color: rgb(96, 96, 97);
+        width:100%;
+        max-width:1050px;
+    }
+    
+    .leftSide {
+        display:flex;
+        align-content: center;
+        gap:18px;
+        width:80%;
+    }
+    
+    .rightSide {
+        width:20%;
+        margin-right:18px;
+    }
+    
+    .twitch {
+        font-family: Arial;
+        font-weight:800;
+        font-size: 8px;
+        color:whitesmoke;
+    }
+    
+    .logo {
+        width:50px;
+    }
+    
+    .signUp {
+        width:100px;
+    }
+}
+    
+@media only screen and (max-width:1050px) and (min-width:601px) {
+    
+    footer{
+        display:flex;
+        justify-content: space-between;
+        background-color: rgb(96, 96, 97);
+        width:auto;
+        max-width:100%;
+    }
+    
+    .leftSide {
+        display:flex;
+        align-content: center;
+        gap:35px;
+        width:80%;
+    }
+    
+    .rightSide {
+        width:20%;
+        margin-right:35px;
+    }
+    
+    .twitch {
+        font-family: Arial;
+        font-weight:800;
+        font-size: 15px;
+        color:whitesmoke;
+    }
+    
+    .logo {
+        width:100px;
+    }
+    
+    .signUp {
+        width:200px;
+    }
+}
+    
+
+

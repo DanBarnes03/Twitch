@@ -1,0 +1,48 @@
+@media (max-width:1920px) {
+    *{
+        margin: 0;
+        padding: 0;
+        width:100%;
+    }
+    
+    main {
+        display:grid;
+        grid-template-columns:25% 25% 25% 25%;
+        max-width:100%;
+        background-color: #3a3a3a;
+        padding-bottom:50px;    
+    }
+}
+
+@media (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        width:100%;
+    }
+    
+    main {
+        display:grid;
+        grid-template-columns:100%;
+        max-width:100%;
+        background-color: #3a3a3a;    
+        padding-bottom:30px;      
+    }
+}
+
+@media only screen and (max-width:1050px) and (min-width:601px) {
+    *{
+        margin: 0;
+        padding: 0;
+        width:auto;
+        max-width:1050px;
+    }
+    
+    main {
+        display:grid;
+        grid-template-columns:33% 33% 33%;
+        max-width:100%;
+        background-color: #3a3a3a;
+        padding-bottom:40px;  
+    }
+}
